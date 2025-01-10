@@ -1,7 +1,7 @@
 (async function () {
   try {
-    const menuModule = await import('https://cdn.jsdelivr.net/gh/hauntxdd/675765765@main/utils/menu.js?v=' + Date.now());
-    const featuresModule = await import('https://cdn.jsdelivr.net/gh/hauntxdd/675765765@main/features/bypasschatfilters.js?v=' + Date.now());
+    const menuModule = await import('https://raw.githubusercontent.com/hauntxdd/msp2/main/utils/menu.js?v=' + Date.now());
+    const featuresModule = await import('https://raw.githubusercontent.com/hauntxdd/msp2/main/features/bypasschatfilters.js?v=' + Date.now());
 
     const createMenu = menuModule.createMenu;
     const modifyWebSocket = featuresModule.modifyWebSocket;
